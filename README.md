@@ -1,9 +1,8 @@
-![CodeBusters banner](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/codeBustersBanner.png)
-# Team CodeBusters: Project Ghost Hunt - The Game
+# Plastilecor Price List Portal
 
-Ghost hunt is an interactive game where users have to click on randomly appearing ghosts to capture them. The objective of the game is to accumulate points by clicking on as many ghosts as possible within a specified time limit.
+Plastilecor is a small business without too much digitalization and a B2B line where it becomes handy to provide those distributors with an online price list that they can check anytime with an assigned user's access. Furthermore, if there are any needed modifications from the plastilecor admin, they can be applied online with an admin user and retrieved to all the other users with a valid access.
 
-![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-ghost-hunters.png)
+![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png)
 
 ## User Experience
 
@@ -17,37 +16,20 @@ Ghost hunt is an interactive game where users have to click on randomly appearin
 - As a **user** I want to **see the time limit** so that I can **compete with myself**
 - As a **user** I want to **hear the game audio/soundtrack** so that I can **feel the halloween spirit**
 - As a **revisitng user** I want to **be able to see my previous score records** so that I can **try to beat it**
+- As a **user** I want to **understand the game rules** so that I can **play the game correctly**
+- As a **user** I want to **have the options menu available** so that I can **restart the game anytime**
+- As a **user** I want to **select the level of difficulty** so that I can **challenge myself with shorter or larger words**
+- As a **user** I want to **be able to guess a letter from the game word** so that I can **try several times before it is game over**
+- As a **user** I want to **be able to watch the letters that were selected** so that I can **avoid repeating letters**
+- As a **user** I want to **be able to watch the hangman image and the number of left tries** so that I can **be more cautious with the following letters selection**
+
 
 ### Tasks and Planning
 
-Tasks, sprints and planning can be seen in the [CodeBusters Team GitHub Project](https://github.com/users/diegocardenast/projects/1). A total of 5 mini sprints were planned and executed, making easier the tracking of activities and the assignation of efforts along the Hackathon.
+Tasks and planning can be seen in the [Plastilecor Price List Portal - GitHub Project](https://github.com/users/diegocardenast/projects/3).
 
-### Colour Palette
-The colour palette was generated from the background image using [Tools PicsArt](https://tools.picsart.com/color/palette-generator/?colors=D8A56C-2D244C-955637-6C4346-697986-3D5980-394D71-6B89A4).
-
-![Colour palette](https://i.ibb.co/t47Lyp5/Screenshot-2023-10-19-at-21-18-27.png "Colour palette")
-
-### Typeface
-The following fonts were chosen from Google Fonts to fit the Halloween theme of the project:
-Creeper (url: https://fonts.google.com/specimen/Creepster?query=creepster)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/creepster.png)
-
-Frijole (url: https://fonts.google.com/specimen/Frijole? query=frijole)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/frijole.png)
-
-Nosifer (url: https://fonts.google.com/specimen/Nosifer?query=nosifer)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/nosifer.png)
-
-Eater: (url: https://fonts.google.com/specimen/Eater?query=eater)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/eater.png)
-
-Astloch (URL: https://fonts.google.com/specimen/Astloch?query=astloch)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/astloch.png)
-
-Modern Antiqua (URL: https://fonts.google.com/specimen/Modern+Antiqua?query=modern+antiqua)
-![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/modern_antiqua.png)
-
-Modern Antiqua was chosen as a typeface for use in chunks of text due to it’s easy readability compared to the others, which will predominately be reserved for titles and headings.
+### Colour
+The colour palette was generated from the company logo: [Plastilecor logo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png).
 
 
 ## Wireframes
@@ -56,7 +38,7 @@ __Game Start__
 
 ![Game Start](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameStart.png)
 
-__Gameplay__ 
+__Gameplay__  
 
 ![Gameplay1](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameplay1.png)
 
@@ -113,7 +95,9 @@ __Scoreboard__
 
 ## Testing
 
-### Validator Testing 
+### Validator Testing
+- Python
+  - No errors were returned when passing through the official [pep8ci validator](https://pep8ci.herokuapp.com/)  
 - JavaScript
   - No errors were returned when passing through the official [JSHint validator](https://jshint.com/)
 - HTML
@@ -148,8 +132,24 @@ Game page test | All phone sizes checked using Chrome Dev Tools | Elements overl
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+- The game code is stored in a GitHub repository and was deployed in the Heroku app. The steps to deploy are as follows: 
+  - Update the requirements file by running in the Gitpod terminal "pip3 freeze > requirements.txt"
+  - Push the latest changes to the GitHub repository 
+  - Inside the Heroku account, create a new app with a unique name
+  - Inside the Heroku app settings tab, create a _Config Var_ called `PORT`. Set this to `8000`
+  - Inside the Heroku app settings tab, add two buildpacks:
+    - `heroku/python`
+    - `heroku/nodejs`
+  - Inside the Heroku app deploy tab, select GitHub as deployment method and connect the GitHub repository to the Heroku app
+  - Inside the Heroku app deploy tab, click on deploy branch
+  - Click on View App
+  - Done!
+
+The live link can be found [HERE](https://hangman-game-diego-dd66cfc0fedc.herokuapp.com/)
+
 The live link can be found [HERE](https://diegocardenast.github.io/CodeBusters/)
 
+--- 
 
 ## Credits
 
@@ -178,10 +178,4 @@ The live link can be found [HERE](https://diegocardenast.github.io/CodeBusters/)
 
 Thank You!
 
-Diego Cardenas  
-Adam Fairley  
-Jamie Bradford  
-Matheus Cafalchio  
-Mimmi Stockman  
-Stefania Frustagli  
-Omar Al-mehdhar  
+Diego Cárdenas 
