@@ -1,110 +1,187 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CodeBusters banner](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/codeBustersBanner.png)
+# Team CodeBusters: Project Ghost Hunt - The Game
 
-Welcome USER_NAME,
+Ghost hunt is an interactive game where users have to click on randomly appearing ghosts to capture them. The objective of the game is to accumulate points by clicking on as many ghosts as possible within a specified time limit.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-ghost-hunters.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Experience
 
-## Gitpod Reminders
+### User Stories
+- As a **user** I want to **understand the game rules** so that I can **play the game correctly**
+- As a **user** I want to **view the Game page** so that I can **click and start the game anytime**
+- As a **user** I want to **navigate the web app** so that I can **see more information about the game**
+- As a **user** I want to **view the Game page** so that I can **click and start the game anytime**
+- As a **user** I want to **select the number of questions** so that I can **dedicate the time I have available**
+- As a **user** I want to **see my score updating** so that I can **compete with my score**
+- As a **user** I want to **see the time limit** so that I can **compete with myself**
+- As a **user** I want to **hear the game audio/soundtrack** so that I can **feel the halloween spirit**
+- As a **revisitng user** I want to **be able to see my previous score records** so that I can **try to beat it**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Tasks and Planning
 
-`python3 -m http.server`
+Tasks, sprints and planning can be seen in the [CodeBusters Team GitHub Project](https://github.com/users/diegocardenast/projects/1). A total of 5 mini sprints were planned and executed, making easier the tracking of activities and the assignation of efforts along the Hackathon.
 
-A blue button should appear to click: _Make Public_,
+### Colour Palette
+The colour palette was generated from the background image using [Tools PicsArt](https://tools.picsart.com/color/palette-generator/?colors=D8A56C-2D244C-955637-6C4346-697986-3D5980-394D71-6B89A4).
 
-Another blue button should appear to click: _Open Browser_.
+![Colour palette](https://i.ibb.co/t47Lyp5/Screenshot-2023-10-19-at-21-18-27.png "Colour palette")
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Typeface
+The following fonts were chosen from Google Fonts to fit the Halloween theme of the project:
+Creeper (url: https://fonts.google.com/specimen/Creepster?query=creepster)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/creepster.png)
 
-A blue button should appear to click: _Make Public_,
+Frijole (url: https://fonts.google.com/specimen/Frijole? query=frijole)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/frijole.png)
 
-Another blue button should appear to click: _Open Browser_.
+Nosifer (url: https://fonts.google.com/specimen/Nosifer?query=nosifer)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/nosifer.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Eater: (url: https://fonts.google.com/specimen/Eater?query=eater)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/eater.png)
 
-To log into the Heroku toolbelt CLI:
+Astloch (URL: https://fonts.google.com/specimen/Astloch?query=astloch)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/astloch.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Modern Antiqua (URL: https://fonts.google.com/specimen/Modern+Antiqua?query=modern+antiqua)
+![image](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/fonts/modern_antiqua.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Modern Antiqua was chosen as a typeface for use in chunks of text due to it’s easy readability compared to the others, which will predominately be reserved for titles and headings.
 
-------
 
-## Release History
+## Wireframes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+__Game Start__  
 
-**September 20 2023:** Update Python version to 3.9.17.
+![Game Start](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameStart.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+__Gameplay__ 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Gameplay1](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameplay1.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Gameplay2](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameplay2.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Implemented Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+__Sound ON/OFF__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - The full responsive navigation bar includes links to the Game page, Instructions and Contact page, and is identical in each page to allow for easy navigation. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Sound ON/OFF](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/sound-on-off.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+__Index__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - The full responsive navigation bar includes links to the Game page, Instructions and Contact page, and is identical in each page to allow for easy navigation. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Index](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/index_image.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+__Art Content__
 
-------
+- Some ghosts were created by the team as well as the team and game logo. 
 
-## FAQ about the uptime script
+![Game Logo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/ghostHuntersLogo.png)
 
-**Why have you added this script?**
+![Ghosts](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/naughty_ghost.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+__In-game Information__
 
-**How will this affect me?**
+  - The time counter, the name of the schenario, pumpkins (lives) counter and how many ghosts you have hunt are part of the visual tools for the user/player. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![inGameInfo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/gameInfo.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+__Game Story & Instructions__
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  - The descriptions of the characters and how to play. 
 
-**So….?**
+![gameStory](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/characters.png)
+![Instructions](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/instructions.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+__Scoreboard__
 
-**Can I opt out?**
+  - It saves the scores of the players. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![scoreboard](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/scoreboard.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Features Left to Implement
+- Make the game go faster and provide extra points per killed gost
+- Add bonus points functionality
 
-**Anything more?**
+## Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Validator Testing 
+- JavaScript
+  - No errors were returned when passing through the official [JSHint validator](https://jshint.com/)
+- HTML
+  - One error related to invalid attributes for an img element was returned when passing the first time through the official [W3C validator](https://validator.w3.org/)
+  - No errors were returned when passing the second time through the official [W3C validator](https://validator.w3.org/)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?)
+- Lighthouse
+  - The result given by the system for the lighthouse assessment is the following:
+![Lighthouse results](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/lighthouse-test.png)
 
----
+### Manual Testing
+**TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
+----------|----------|----------|----------
+Index | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Index | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Game | Size to 320px using Chrome Dev Tools	| Elements look good @ 320px | Works as expected
+Game | Size to 1920px using Chrome Dev Tools | Elements look good 1920px | Works as expected
+Index page test | All phone sizes checked using Chrome Dev Tools | Elements look good | Works at expected
+Game page test | All phone sizes checked using Chrome Dev Tools | Elements overlap and game runs faster at lower resolutions | Does not work as expected 
 
-Happy coding!
+
+
+### Unfixed Bugs
+
+- NA
+
+## Deployment 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found [HERE](https://diegocardenast.github.io/CodeBusters/)
+
+
+## Credits
+
+### Content 
+
+- Good/Best practice on the readme were shared by Lauren-Nicole Popich in her [mentoring](https://github.com/CluelessBiker/mentoring/tree/main) GitHub repositry
+- User Stories and tasks creation was implemented following this [publication](https://boosthigh.com/software-requirements-specification/)
+- Use of Google to import [Google fonts](https://fonts.google.com/?classification=Display) 
+- Inspiration of our [game color palette](https://tools.picsart.com/color/palette-generator/?colors=D8A56C-2D244C-955637-6C4346-697986-3D5980-394D71-6B89A4) and were based on the selected game background that comes from [themeforest.net](https://themeforest.net/)
+- The animation and use of canvas in JavaScript was implemented following this [tutorial](https://youtu.be/GFO_txvwK_c?si=l2RwIYNxn0n712Ew)
+- The use of GitHub to collaborate and apply good practices was implemented following this [Slack post](https://code-institute-room.slack.com/archives/C05UQAPDNCT/p1697457705802579) and this [GitHub post](https://github.com/auxfuse/hackathon-git-labs/blob/main/basic.md)
+- The [team availability](https://docs.google.com/spreadsheets/d/1dMP_YxtveAuA8vppXYU1i1a0LoCAVq37If_BdVpL-fg/edit?usp=sharing) was organized using [Google sheets](https://www.google.com/sheets/about/)
+
+### Media
+
+- The creation of the team banner and game logo was implemented using [Canva](https://www.canva.com/)
+- The wireframes were created using [Balsamiq Cloud](https://balsamiq.cloud/)
+- The icons along the web app were taken from [Font Awesome](https://fontawesome.com/)
+- The use of the icons was provided by [Flaticon](https://www.flaticon.com/free-icon/planet-earth_1598431?related_id=1598196&origin=search)
+- The ghosts own art were created with [Procreate](https://procreate.com/) and [Photoshop](https://www.adobe.com/products/photoshop.html)
+- The improvement/change of sprites (sequence of images for animation) were implemented using [GIMP](https://www.gimp.org/)
+- The game background music was selected from opengameart.org and created by [Alexandr Zhelanov](https://opengameart.org/content/wtf-ghost)
+- The game background image was selected from [themeforest.net](https://themeforest.net/)
+
+
+
+Thank You!
+
+Diego Cardenas  
+Adam Fairley  
+Jamie Bradford  
+Matheus Cafalchio  
+Mimmi Stockman  
+Stefania Frustagli  
+Omar Al-mehdhar  
