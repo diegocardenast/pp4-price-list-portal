@@ -7,21 +7,14 @@ Plastilecor is a small business without too much digitalization and a B2B line w
 ## User Experience
 
 ### User Stories
-- As a **user** I want to **understand the game rules** so that I can **play the game correctly**
-- As a **user** I want to **view the Game page** so that I can **click and start the game anytime**
-- As a **user** I want to **navigate the web app** so that I can **see more information about the game**
-- As a **user** I want to **view the Game page** so that I can **click and start the game anytime**
-- As a **user** I want to **select the number of questions** so that I can **dedicate the time I have available**
-- As a **user** I want to **see my score updating** so that I can **compete with my score**
-- As a **user** I want to **see the time limit** so that I can **compete with myself**
-- As a **user** I want to **hear the game audio/soundtrack** so that I can **feel the halloween spirit**
-- As a **revisitng user** I want to **be able to see my previous score records** so that I can **try to beat it**
-- As a **user** I want to **understand the game rules** so that I can **play the game correctly**
-- As a **user** I want to **have the options menu available** so that I can **restart the game anytime**
-- As a **user** I want to **select the level of difficulty** so that I can **challenge myself with shorter or larger words**
-- As a **user** I want to **be able to guess a letter from the game word** so that I can **try several times before it is game over**
-- As a **user** I want to **be able to watch the letters that were selected** so that I can **avoid repeating letters**
-- As a **user** I want to **be able to watch the hangman image and the number of left tries** so that I can **be more cautious with the following letters selection**
+- As a **user** I want to **login into the portal** so that I can **see the updated price list of products**
+- As a **user** I want to **register in the portal** so that I can **have my own user access**
+- As a **user** I want to **have a landing page with a link to the products list** so that I can **always watch the most updated version of the list**
+- As a **user** I want to **have a landing page with a link to the the contact form** so that I can **contact plastilecor support in case of any doubt**
+- As a **user** I want to **have a landing page with a link to the official Plastilecor website** so that I can **check more information of the company if I need to**
+- As an **admin user** I want to **login into the portal** so that I can **CRUD user accounts and price list of products**
+- As an **admin user** I want to **CRUD user accounts** so that I can **make sure who has access into the portal**
+- As an **admin user** I want to **CRUD the product list inside the website** so that I can **make sure we always have the most updated version inside the portal**
 
 
 ### Tasks and Planning
