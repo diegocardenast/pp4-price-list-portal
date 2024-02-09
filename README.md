@@ -1,18 +1,24 @@
+<p align="center">
+  <img width="400" height="200" src="https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg" alt="PlastilecorLogo">
+</p>
+
 # Plastilecor Price List Portal
 
 Plastilecor is a small business without too much digitalization and a B2B line where it becomes handy to provide those distributors with an online price list that they can check anytime with an assigned user's access. Furthermore, if there are any needed modifications from the plastilecor admin, they can be applied online with an admin user and retrieved to all the other users with a valid access.
 
-![Responsive Mockup](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png)
+![Responsive Mockup](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png)
 
 ## User Experience
 
 ### User Stories
 - As a **user** I want to **login into the portal** so that I can **see the updated price list of products**
+- As a **user** I want to **logout from the portal** so that I can **keep my user credentials safe**
 - As a **user** I want to **register in the portal** so that I can **have my own user access**
 - As a **user** I want to **have a landing page with a link to the products list** so that I can **always watch the most updated version of the list**
 - As a **user** I want to **have a landing page with a link to the the contact form** so that I can **contact plastilecor support in case of any doubt**
 - As a **user** I want to **have a landing page with a link to the official Plastilecor website** so that I can **check more information of the company if I need to**
 - As an **admin user** I want to **login into the portal** so that I can **CRUD user accounts and price list of products**
+- As an **admin user** I want to **logout from the portal** so that I can **keep users credentials and the product list safe**
 - As an **admin user** I want to **CRUD user accounts** so that I can **make sure who has access into the portal**
 - As an **admin user** I want to **CRUD the product list inside the website** so that I can **make sure we always have the most updated version inside the portal**
 
@@ -22,20 +28,22 @@ Plastilecor is a small business without too much digitalization and a B2B line w
 Tasks and planning can be seen in the [Plastilecor Price List Portal - GitHub Project](https://github.com/users/diegocardenast/projects/3).
 
 ### Colour
-The colour palette was generated from the company logo: [Plastilecor logo](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png).
+The colour palette was generated from the company logo: [Plastilecor logo](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg).
 
 
 ## Wireframes
 
-__Game Start__  
+__Login__  
 
-![Game Start](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameStart.png)
+![Login](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/readme/wireframe.png)
 
-__Gameplay__  
+__Register__  
 
-![Gameplay1](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameplay1.png)
+![Register](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/readme/wireframe1.png)
 
-![Gameplay2](https://github.com/diegocardenast/CodeBusters/blob/main/assets/images/readme/wireframeGameplay2.png)
+__Register__  
+
+![Gameplay2](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/readme/wireframe2.png)
 
 
 
