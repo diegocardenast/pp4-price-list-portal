@@ -4,7 +4,7 @@
 
 # Plastilecor Price List Portal
 
-Plastilecor is a small business without too much digitalization and a B2B line where it becomes handy to provide those distributors with an online price list that they can check anytime with an assigned user's access. Furthermore, if there are any needed modifications from the plastilecor admin, they can be applied online with an admin user and retrieved to all the other users with a valid access.
+Plastilecor is a small business without too much digitalization and a B2B line where it becomes handy to provide distributors with an online price list that they can check anytime with an assigned user access. Furthermore, if there are any needed modifications from the plastilecor admin, they can be applied online with an admin user and retrieved to all the other users with a valid access.
 
 ![Responsive Mockup](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/am-I-responsive-plastilecor-price-list-portal.png)
 
@@ -29,7 +29,7 @@ Plastilecor is a small business without too much digitalization and a B2B line w
 Tasks and planning can be seen in the [Plastilecor Price List Portal - GitHub Project](https://github.com/users/diegocardenast/projects/3).
 
 ### Colour
-The colour palette was generated from the company logo: [Plastilecor logo](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg).
+The colour selection was generated from the company logo: [Plastilecor logo](https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg). The main HEX code is [#004F1F](https://g.co/kgs/ZfFH1aA).
 
 
 ## Wireframes
@@ -129,14 +129,13 @@ Game page test | All phone sizes checked using Chrome Dev Tools | Elements overl
 
 ## Deployment 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-- The game code is stored in a GitHub repository and was deployed in the Heroku app. The steps to deploy are as follows: 
-  - Update the requirements file by running in the Gitpod terminal "pip3 freeze > requirements.txt"
+- The site was deployed in the Heroku. The steps to deploy are as follows: 
+  - Install the **Django Python package** by running in the Gitpod terminal **"pip3 install Django~=4.2.1"**
+  - Update the requirements file by running in the Gitpod terminal **"pip3 freeze > requirements.txt"**
   - Push the latest changes to the GitHub repository 
+  - Run in the Gitpod terminal **"django-admin startproject my_project ."** to create a Django project. In this case, my_project is called **plastilecor_portal**
+  - Add the **ALLOWED_HOSTS** (in this case '8000-diegocarden-pp4plastile-dl4pq8wxrog.ws-eu108.gitpod.io') into **plastilecor_portal/settings.py** file
+  - 
   - Inside the Heroku account, create a new app with a unique name
   - Inside the Heroku app settings tab, create a _Config Var_ called `PORT`. Set this to `8000`
   - Inside the Heroku app settings tab, add two buildpacks:
@@ -146,6 +145,12 @@ Game page test | All phone sizes checked using Chrome Dev Tools | Elements overl
   - Inside the Heroku app deploy tab, click on deploy branch
   - Click on View App
   - Done!
+
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+- The game code is stored in a GitHub repository and was deployed in the Heroku app. The steps to deploy are as follows: 
 
 The live link can be found [HERE](https://hangman-game-diego-dd66cfc0fedc.herokuapp.com/)
 
