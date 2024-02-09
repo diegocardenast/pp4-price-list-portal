@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="200" src="https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg" alt="PlastilecorLogo">
+  <img width="500" height="100" src="https://github.com/diegocardenast/pp4-plastilecor-price-list-portal/blob/main/assets/images/plastilecorLogo.jpg" alt="PlastilecorLogo">
 </p>
 
 # Plastilecor Price List Portal
@@ -21,6 +21,7 @@ Plastilecor is a small business without too much digitalization and a B2B line w
 - As an **admin user** I want to **logout from the portal** so that I can **keep users credentials and the product list safe**
 - As an **admin user** I want to **CRUD user accounts** so that I can **make sure who has access into the portal**
 - As an **admin user** I want to **CRUD the product list inside the website** so that I can **make sure we always have the most updated version inside the portal**
+- As an **admin user and user** I want to **check the documentation of the website** so that I can **better understand the functionalities, quality and features of it**
 
 
 ### Tasks and Planning
