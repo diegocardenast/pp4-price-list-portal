@@ -1,0 +1,1 @@
+web: gunicorn plastilecor_portal.wsgi
