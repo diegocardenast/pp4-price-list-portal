@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from priceList.views import HttpResponse
+from django.http import HttpResponse
 
 # Create your views here.
 def my_priceList(request):
-    return HttpResponse("Hello, Plastilecor!");
+    return HttpResponse("Hello, Plastilecor!")
